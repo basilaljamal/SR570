@@ -1,0 +1,4 @@
+pattern {SYSTEM		    	DEVICE}
+		{D08-ES-IC-1	    SR570 }
+		{D08-ES-IC-2	    SR570 }
+		{D08-ES-IC-3	    SR570 }

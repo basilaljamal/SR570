@@ -1,0 +1,97 @@
+OutTerminator = CR LF;
+
+setSensitivity
+{
+    out  "SENS %d ";
+}
+
+enableSensitivityCalMode
+{
+    out  "SUCV %d ";
+}
+
+setSensitivityCalMode
+{
+    out  "SUCM %d ";
+}
+
+enableInputOffestCurrent
+{
+    out  "IOON %d ";
+}
+
+setInputOffestCurrentSign
+{
+    out  "IOSN %d ";
+}
+
+enableInputOffsetCalMode
+{
+    out  "IOUC %d ";
+}
+
+setInputOffestVernier
+{
+    out  "IOUV %d ";
+}
+
+InputOffsetCurrentLevel
+{
+	out  "IOLV %d ";
+}
+
+enableBiasVoltage
+{
+	out  "BSON %d ";
+}
+
+setVoltageBiasLevel
+{
+	out  "BSLV %d ";
+}
+
+setFilterType
+{
+	out  "FLTT %d ";
+}
+
+setLowPassFilter
+{
+	out  "LFRQ %d ";
+}
+
+setHighPassFilter
+{
+	out  "HFRQ %d ";
+}
+
+setGainMode
+{
+	out  "GNMD %d ";
+}
+
+BlankFrontEndOutput
+{
+	out  "BLNK %d ";
+}
+
+InvertSignal
+{
+	out  "INVT %d ";
+}
+
+Reset
+{
+    out "%s";
+    out "*RST";
+}
+
+ROLD
+{
+    out "%s";
+    out "ROLD";
+}
+
+
+
+

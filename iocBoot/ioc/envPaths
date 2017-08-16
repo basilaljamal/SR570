@@ -1,0 +1,4 @@
+epicsEnvSet("ARCH","linux-x86_64")
+epicsEnvSet("IOC","ioc")
+epicsEnvSet("TOP","/home/basil/Projects/SR570")
+epicsEnvSet("EPICS_BASE","/home/basil/EPICS/base-3.14.12.6")
